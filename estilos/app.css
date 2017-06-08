@@ -1,0 +1,674 @@
+/*font-family: 'Roboto Slab', serif;
+font-family: 'Crete Round', serif;
+font-family: 'BenchNine', sans-serif;
+font-family: 'Roboto Slab', serif;*/
+
+h3{
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+h6 {
+	text-align: initial;
+}
+
+body{overflow-y: scroll;
+	 overflow-x: hidden;
+	 background-color: #1E1F1E;
+}
+
+h1, h2 {
+	color: white;
+	font-family: 'Roboto Slab', serif;
+}
+
+.fixed {
+	background: #000 url(../img/rana.jpg) no-repeat 0 0;
+	background-size: cover;
+	width: 100%;
+	min-height: 100vh;
+	position: fixed;
+	top: 0;
+}
+
+.fixed2 {
+	background: #000 url(../img/mono.jpg) no-repeat 0 0;
+	background-size: cover;
+	width: 100%;
+	min-height: 100vh;
+	position: fixed;
+	top: 0;
+}
+
+.fixed3 {
+	background: #000 url(../img/atardecer.jpg) no-repeat 0 0;
+	background-size: cover;
+	width: 100%;
+	min-height: 100vh;
+	position: fixed;
+	top: 0;
+}
+
+.active {
+	font-weight:bold;
+}
+
+.nav-item.nav-link.active {
+	text-decoration: none;
+}
+
+.nav-item.nav-link.active.inicio {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+.navbar {
+	margin-top: 1%;
+}
+
+.nav-link:hover {
+	text-decoration: underline;
+	color: rgba(224, 212, 212, 0.7);
+}
+
+.navbar-light .navbar-brand:hover {
+	color: rgba(224, 212, 212, 0.7);
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+	white-space: nowrap;
+	margin: 0;
+	margin-left: 1.5em;
+}
+
+.navbar-light .navbar-brand{
+	font-size: 20px;
+	color: white;
+}
+
+.navbar-light .navbar-brand {
+	font-size: 24px
+}
+
+.nav-item.nav-link  {
+	margin-left: 0px;
+}
+
+.navbar-toggler-icon {
+	color: white
+}
+
+ .navbar-light .navbar-nav .nav-link:hover {
+    color:  rgb(243, 243, 243);
+}
+
+.fa.fa-bars{
+	color: white;
+}
+
+.navbar-light .navbar-toggler {
+	border-color: none;
+	margin-top: 8px;
+}
+
+.contenedor {
+	color: #000;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-size: 30px;
+}
+
+.contenedor a {
+	font-family: sans-serif;
+}
+
+.head h1 {
+	margin-top: 0%
+}
+
+.texto {
+	margin-top: 4em;
+	margin-right: 2em;
+	font-size: 20px;
+	font-family: 'Crete Round', serif;
+	text-shadow: none;
+	color: white;
+	text-align: justify;
+}
+
+.cabeza .container{
+	padding-top: 5em;
+	background-color: white;
+	width: 110%;
+}
+
+.cabeza .img-fluid {
+    width: 100%;
+    margin-top: 5em;
+}
+
+.cabeza p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1em;
+	text-align: justify;
+
+}
+
+.cabeza h2 {
+	color: black;
+	text-align: center;
+    font-size: 2em;
+}
+
+.btn-outline-primary.boton-inicio,
+.btn-outline-primary.enviar {
+	color: black;
+	border-color: black;
+
+}
+
+.section .frontend{
+	height: 160px;
+}
+
+.section h3,
+.section h5 {
+	font-family: 'Crete Round', serif
+}
+
+.btn-outline-primary.boton-inicio:hover{
+	color: black;
+	background-color: white;
+	border-color: black;
+}
+
+.btn-outline-primary.enviar:hover {
+	color: blue;
+	background-color: white;
+	border-color: blue;
+}
+
+.section .container{
+	width: 110%;
+	background-color: white;
+}
+
+.section .img-fluid {
+	height: 7em;
+    width: auto;
+}
+
+.section .img-fluid.nombre1{
+	height: 2em;
+}
+
+.section .img-fluid.nombre2{
+	height: 3em;
+}
+
+.framewors{
+	height: 140px;
+}
+
+.row.titulo-pequeno{
+	margin-top: 3em;
+}
+
+.amazon {
+	margin-top: 40px;
+    margin-left: 17px;
+    height: 4em !important;
+}
+
+.linux {
+	margin-left: 20px;
+	margin-top: 2em;
+}
+
+.jq {
+	height: 4em !important;
+    margin-top: 3em;
+}
+
+.centrado {
+	text-align: center;
+}
+
+section .centrado{
+	margin-right: 15px
+}
+
+.footer .container {
+	width: 110%;
+	background-color: black;
+	color: white;
+}
+
+.footer .container h5 {
+	margin-top: 3em;
+}
+
+
+.rounded-circle {
+	background-color: white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 1px;
+    text-decoration: none;
+    margin-bottom: 2em;
+    border: 2px solid black;
+}
+
+.rounded-circle:hover {
+	text-decoration: none;
+}
+
+.rounded-circle:focus {
+	text-decoration: none;
+}
+
+.items {
+	margin-bottom: 4em;
+	margin: 0 32px;
+}
+
+.footer .top {
+	padding: 1em 1em;
+	position: absolute;
+    top: -0.7em;
+    left: 49%;
+    margin: -1.25em 0 0 -1.25em;
+    background-color: #4864ec;
+    height: 4em;
+    width: 4em;
+    color: white;
+    transition: 1s;
+}
+
+.footer .rounded-circle.top:hover {
+ transition: height 2s linear;
+
+}
+
+.footer a {
+	color: black;
+}
+
+.footer .centrado {
+	top: 0;
+}
+
+.footer .container {
+	padding-bottom: 3em;
+}
+
+.fa-whatsapp {
+	color: green;
+}
+
+.contacto {
+	padding-top: 3em;
+    padding-bottom: 4em;
+}
+
+.contacto .form label {
+	display: block;
+	margin-top: 1em;
+}
+
+.contacto .form .row input {
+	width: 100%;
+}
+
+.contacto .form textarea {
+	width: 100%;
+	height: 7em;
+}
+
+.contacto hr {
+	margin-right: 9%;
+}
+
+.contacto a {
+	color: black;
+}
+
+.btn.enviar {
+	margin-top: 1em;
+}
+
+@media (max-width: 576px) { 
+	h1{
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	h2{
+		font-size: .5em;
+		text-align: center;
+	}	
+
+	.texto {
+		margin-top: 3em;
+		text-align: center;
+		margin-left: 1em;
+	}
+
+	.navbar-light .navbar-brand{
+		color: white;
+	}
+
+	.btn-outline-primary.boton-inicio {
+		text-align: center;
+		color: white;
+		border-color: white;
+		margin-left: 3em;
+	}
+
+	.navbar-nav {
+		text-align: center!important;
+	}
+
+	.amazon {
+		margin-top: 40px;
+	    margin-left: 17px;
+    }
+
+	.linux {
+		margin-left: 20px;
+	}
+
+	.jq {
+		margin-top: 20px;
+	}
+
+	.margen {
+		margin-bottom: 3em;
+	}
+
+	.footer .top {
+		left: 48%;
+	}
+
+	.titulo-margen{
+		margin-bottom: 4em;
+		margin-top: 2em;
+	}
+
+	h3 {
+	    margin-top: 3%;
+	    margin-bottom: 9%;
+	}
+
+	.fixed2 {
+		background: #000 url(../img/mono2.jpg) no-repeat 0 0;
+		background-size: cover;
+		width: 100%;
+		min-height: 75vh;
+		position: fixed;
+		top: 0;
+	}
+	
+
+	.fixed3 {
+		background: #000 url(../img/atardecer2.jpg) no-repeat 0 0;
+		background-size: cover;
+		width: 100%;
+		min-height: 75vh;
+		position: fixed;
+		top: 0;
+	}
+
+	.contacto .form textarea {
+		width: 91%;
+		height: 7em;
+	}
+
+	.enviar-mensaje{
+		margin-top: 2em;
+	}
+
+	
+	.active {
+		background-color: rgba(190, 190, 197, 0.47);
+	}
+
+	.fixed {
+		background: #000 url(../img/pajaroc.jpg) no-repeat 0 0;
+		background-size: cover;
+		width: 100%;
+		min-height: 105vh;
+		position: fixed;
+		top: 0;
+	}
+
+	.navbar-light .navbar-brand {
+	    font-size: 18px;
+	}
+}
+
+@media (min-width: 576px) { 
+	h1{
+		font-size: 1.5em;
+	}
+
+	h2{
+		font-size: .5em;
+	}	
+
+	.navbar-light .navbar-brand{
+		color: white;
+	}
+
+	.btn-outline-primary.boton-inicio {
+		text-align: center;
+		color: white;
+		border-color: white;
+		margin-left: 1em;
+	}
+
+	.pequeño {
+		margin: 13px;
+	}
+
+	.margen {
+		margin-bottom: 3em;
+	}
+
+	.footer .top {
+		left: 48%;
+	}
+
+	.titulo-margen{
+		margin-bottom: 4em;
+	}
+
+	h3 {
+	    margin-top: 3%;
+	    margin-bottom: 9%;
+	}
+
+	.fixed2 {
+		background: #000 url(../img/mono2.jpg) no-repeat 0 0;
+		background-size: cover;
+		width: 100%;
+		min-height: 75vh;
+		position: fixed;
+		top: 0;
+	}
+
+	.fixed3 {
+		background: #000 url(../img/atardecer2.jpg) no-repeat 0 0;
+		background-size: cover;
+		width: 100%;
+		min-height: 75vh;
+		position: fixed;
+		top: 0;
+	}
+
+	.contacto .form textarea {
+		width: 91%;
+		height: 7em;
+	}
+
+	.navbar-light .navbar-brand {
+	    font-size: 18px;
+	}
+
+	.enviar-mensaje{
+		margin-top: 2em;
+	}
+
+	.fixed {
+		background: #000 url(../img/pajaroc.jpg) no-repeat 0 0;
+		background-size: cover;
+		width: 100%;
+		min-height: 100vh;
+		position: fixed;
+		top: 0;
+	}
+
+
+}
+
+@media (min-width: 768px) { 
+	h1{
+		font-size: 2.5em;
+	}
+
+	h2{
+		font-size: .9em;
+	} 
+
+	.navbar-light .navbar-brand{
+		color: white;
+	}
+
+	.btn-outline-primary.boton-inicio {
+		color: white;
+		border-color: white;
+	}
+
+	.footer .top {
+		left: 49%;
+	}
+
+	h3 {
+	    margin-top: 3%;
+	    margin-bottom: 3%;
+	}
+
+
+	.contacto .form textarea {
+		width: 100%;
+		height: 7em;
+	}
+
+	.enviar-mensaje{
+		margin-top: 0;
+	}
+
+	.fixed {
+		background: #000 url(../img/rojo.jpg) no-repeat 0 0;
+		background-size: cover;
+		width: 100%;
+		min-height: 100vh;
+		position: fixed;
+		top: 0;
+	}
+
+	.fixed2 {
+		background: #000 url(../img/mono.jpg) no-repeat 0 0;
+		background-size: cover;
+		width: 100%;
+		min-height: 75vh;
+		position: fixed;
+		top: 0;
+	}
+
+	.fixed3 {
+		background: #000 url(../img/atardecer.jpg) no-repeat 0 0;
+		background-size: cover;
+		width: 100%;
+		min-height: 100vh;
+		position: fixed;
+		top: 0;
+	}
+}
+
+@media (min-width: 992px) { 
+	h1{
+		font-size: 3em;
+	}
+
+	h2{
+		font-size: 1em;
+	}
+
+	h3 {
+	    margin-top: 3%;
+	    margin-bottom: 3%;
+	}
+	.navbar-light .navbar-brand{
+		color: white;
+	}
+
+	.btn-outline-primary.boton-inicio {
+		color: white;
+		border-color: white;
+	}
+
+	.navbar-light .navbar-nav .nav-link.negro {
+		color: black;
+	}
+
+	.navbar-light .navbar-nav .nav-link.blanco {
+		color: white;
+	}
+
+
+	.fixed {
+		background: #000 url(../img/rojo.jpg) no-repeat 0 0;
+		background-size: cover;
+		width: 100%;
+		min-height: 100vh;
+		position: fixed;
+		top: 0;
+	}
+
+}
+
+@media (min-width: 1200px) { 
+	h1{
+		font-size: 3.5em;
+	}
+	h2{
+		font-size: 1.2em;
+	}
+
+	h3 {
+	    margin-top: 3%;
+	    margin-bottom: 3%;
+	}
+
+	.btn-outline-primary.boton-inicio {
+		color: white;
+		border-color: white;
+	}
+
+	.fixed {
+		background: #000 url(../img/rana.jpg) no-repeat 0 0;
+		background-size: cover;
+		width: 100%;
+		min-height: 100vh;
+		position: fixed;
+		top: 0;
+	}
+	
+ }
